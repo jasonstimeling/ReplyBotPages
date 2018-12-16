@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Discord Reply Bot</title>
+    <style>
+        body {
+            background-color:#36393E;
+        }
+        .link {
+            display:block;
+            margin-left:auto;
+            margin-right:auto;
+            position:relative;
+            top:0;
+            bottom:0;
+        }
+        h3{
+            font-size:30px;
+            font-family:"Arial Black", Gadget, sans-serif;
+            color:white;
+            text-align:center;
+        }
+        input[type=submit] {
+            margin-right:20px;
+            margin-left:20px;
+            width:80px;
+            height:30px;
+            float:right;
+            background-color:#faebd7;
+        }
+        #shine {
+            z-index:-5;
+            position:absolute;
+            top:60px;
+        }
+    </style>
+</head>
+<body>
+<a href=https://discordapp.com/login>
+    <h3><i>Log in with:</i></h3>
+    <img class="link" src="https://www.metrixyt.com/resources/home_page/Discord_logo_(Wide).png" alt="Discord!" height="115px" width="350px">
+</a>
+<a href=https://discordapp.com/settings>
+    <input type="submit" value="Settings">
+</a>
+<div >
+    <img id="shine" src="http://www.pngall.com/wp-content/uploads/2017/05/Shine-PNG-Clipart.png" alt=" ">
+</div>
