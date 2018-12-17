@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Settings!</title>
+    <style>
+        body {
+            background-color:#36393E;
+        }
+        input[type=submit] {
+            margin-right:20px;
+            margin-left:20px;
+            width:100px;
+            height:30px;
+            float:right;
+            background-color:#faebd7;
+        }
+        .choices {
+            display:block;
+            text-align:center;
+            font-family:sans-serif;
+            color:white;
+        }
+        #radio1 {
+            position:relative
+        }
+        #radio2 {
+            position:relative
+        }
+        #radio3 {
+            position:relative
+        }
+    </style>
+</head>
+
+<body background="https://i.imgur.com/eS4IxK3.png">
+<div class="choices">
+    <label>
+        <input id="radio1" name="radio" type="radio">
+        <span class="control-indicator"></span>
+        <b>Bot Command A</b>
+    </label>
+    <label>
+        <input id="radio2" name="radio" type="radio">
+        <span class="control-indicator"></span>
+        <b>Bot Command B</b>
+    </label>
+    <label>
+        <input id="radio3" name="radio" type="radio">
+        <span class="control-indicator"></span>
+        <b>Bot Command C</b>
+    </label>
+</div>
+
+<div class="back">
+    <a href="file:///C:/Users/Stajayjay/.WebStorm2018.3/config/scratches/scratch.html">
+<input type="submit" value="Back to Login">
+    </a>
+
+</div>
+</body>
