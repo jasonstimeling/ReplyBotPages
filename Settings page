@@ -17,44 +17,43 @@
         .choices {
             display:block;
             text-align:center;
-            font-family:sans-serif;
+            font-family:"Trebuchet MS", Helvetica, sans-serif;
             color:white;
+            font-size:25px;
         }
-        #radio1 {
-            position:relative
-        }
-        #radio2 {
-            position:relative
-        }
-        #radio3 {
-            position:relative
+        h2 {
+            left:50%;
+            font-size:35px;
+            color:#f5f5f5;
         }
     </style>
 </head>
 
 <body background="https://i.imgur.com/eS4IxK3.png">
-<div class="choices">
-    <label>
+
+<div class="back">
+    <a href="file:///C:/Users/Stajayjay/.WebStorm2018.3/config/scratches/scratch.html">
+        <input type="submit" value="Back to Login">
+    </a>
+</div>
+<h2>Settings!</h2>
+<hr>
+<form>
+    <label class="choices">
         <input id="radio1" name="radio" type="radio">
         <span class="control-indicator"></span>
         <b>Bot Command A</b>
     </label>
-    <label>
+    <label class="choices">
         <input id="radio2" name="radio" type="radio">
         <span class="control-indicator"></span>
         <b>Bot Command B</b>
     </label>
-    <label>
+    <label class="choices">
         <input id="radio3" name="radio" type="radio">
         <span class="control-indicator"></span>
         <b>Bot Command C</b>
     </label>
-</div>
+</form>
 
-<div class="back">
-    <a href="file:///C:/Users/Stajayjay/.WebStorm2018.3/config/scratches/scratch.html">
-<input type="submit" value="Back to Login">
-    </a>
-
-</div>
 </body>
