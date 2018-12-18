@@ -33,6 +33,13 @@
             position:absolute;
             top:60px;
         }
+
+        #logo {
+            background-color:#faebd7;
+            float:right;
+            width:100px;
+            height:40px;
+        }
     </style>
 </head>
 <body>
@@ -40,9 +47,18 @@
     <h3><i>Log in with:</i></h3>
     <img class="link" src="https://www.metrixyt.com/resources/home_page/Discord_logo_(Wide).png" alt="Discord!" height="115px" width="350px">
 </a>
-<a href=https://discordapp.com/settings>
+<a href=file:///C:/Users/519-p4/.WebStorm2018.3/config/scratches/scratch.html>
     <input type="submit" value="Settings">
 </a>
+
+
+<button id="logo" type="submit">
+    Add to
+    <img src="http://chittagongit.com//images/discord-icon-transparent/discord-icon-transparent-28.jpg" height="25px" width="25px" alt="Add to Discord"/>
+    <br/>
+</button>
+
 <div >
     <img id="shine" src="http://www.pngall.com/wp-content/uploads/2017/05/Shine-PNG-Clipart.png" alt=" ">
 </div>
+</body>
